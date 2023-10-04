@@ -1,5 +1,10 @@
-.app {
+body {
   padding: 50px;
+}
+
+.app {
+  margin: 0px auto;
+  width: 1200px;
 }
 
 .header .header-title {
@@ -94,7 +99,11 @@
   color: hsl(0, 0%, 59%);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 900px) {
+  .app {
+    width: 100%;
+  }
+
   .header .header-title{
     font-size: 20px;
   }
